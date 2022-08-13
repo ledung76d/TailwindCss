@@ -7,9 +7,9 @@ function App() {
 
 
   return (
-    <div className='grid grid-cols-5'>
+    <div className='grid md:grid-cols-4 xl:grid-cols-5'>
       <Nav />
-      <main className='col-span-4 bg-cyan-50 px-12 py-16'>
+      <main className='md:col-span-3 xl:col-span-4 bg-cyan-50 px-12 py-6'>
         <AuthButtons />
         <Header />
         <Trending />
