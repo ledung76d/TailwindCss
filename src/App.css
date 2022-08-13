@@ -22,7 +22,14 @@
 
 @layer components{
   .btn{
-    @apply border-2 border-primary px-4 py-2 rounded uppercase text-xl font-semibold cursor-pointer;
+    @apply border-2 border-primary px-4 py-2 rounded uppercase text-xl font-semibold cursor-pointer hover:bg-primary hover:text-white;
   }
 
+  .card{
+    @apply bg-primary rounded-md shadow-md shadow-primary relative overflow-hidden hover:shadow-lg hover:shadow-primary;
+  }
+
+  .badge{
+    @apply flex justify-between items-center bg-cyan-50 rounded-md absolute top-2 left-2 p-2 min-w-[25%]
+  }
 }
